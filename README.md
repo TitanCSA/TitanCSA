@@ -2,7 +2,7 @@
 
 I build Windows tools for physical input, virtual devices, diagnostics and browser automation.
 
-**[Browse SDK packages and install commands](https://github.com/TitanCSA/sdk-packages)** · **[Browse the project catalogue](https://github.com/titanfyre/Titan-Input-Tools)**
+**[Browse SDK packages and install commands](https://github.com/TitanCSA/sdk-packages)** · **[Browse all 58 reachable projects](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md)** · **[Browse the project catalogue](https://github.com/titanfyre/Titan-Input-Tools)**
 
 ## Find a starting point
 
