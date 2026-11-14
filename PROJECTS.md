@@ -2,7 +2,7 @@
 
 Un guide par besoin pour **58 projets accessibles publiquement**, vérifiés le 14 novembre 2026. Chaque projet a son usage, un point de départ et une limite à connaître. Les README liés restent la référence pour la version publiée, ses licences et ses prérequis.
 
-[Premier essai en français](DEMARRER.md) · [Paquets et commandes exactes](https://github.com/TitanCSA/sdk-packages) · [Catalogue produit](https://licences.configcsa.com/portfolio/catalog)
+[English version](PROJECTS.en.md) · [Premier essai en français](DEMARRER.md) · [Paquets et commandes exactes](https://github.com/TitanCSA/sdk-packages) · [Catalogue produit](https://licences.configcsa.com/portfolio/catalog)
 
 ## Choisir son parcours
 
