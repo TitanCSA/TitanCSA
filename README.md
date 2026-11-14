@@ -4,6 +4,8 @@ I build Windows tools for physical input, virtual devices, diagnostics and brows
 
 **[Browse SDK packages and install commands](https://github.com/TitanCSA/sdk-packages)** · **[Browse all 58 reachable projects](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md)** · **[Browse the project catalogue](https://github.com/titanfyre/Titan-Input-Tools)**
 
+**[Français : choisir un projet et faire un premier essai](https://github.com/TitanCSA/TitanCSA/blob/main/DEMARRER.md)**
+
 ## Find a starting point
 
 | What you want to build | Project |
@@ -15,6 +17,8 @@ I build Windows tools for physical input, virtual devices, diagnostics and brows
 | Create virtual USB/HID input devices | [Vdevice](https://github.com/TitanCSA/Vdevice) |
 | Automate a dedicated browser through local SDK or MCP tools | [Browser Control SDK](https://github.com/TitanCSA/Browser-Control-SDK) |
 | Collect Windows device and driver support reports | [Driver Readiness Inspector](https://github.com/titanfyre/Driver-Readiness-Inspector) |
+| Chat with local text models through a French desktop interface | [Titan Local AI](https://github.com/titanfyre/Titan-Local-AI) |
+| Validate a virtual HID test fixture offline before an explicit live run | [Input CI Runner](https://github.com/titanfyre/Input-CI-Runner) |
 | Exercise storage error handling on a disposable RAM-disk fixture | [Virtual Storage Fault Lab](https://github.com/titanfyre/Virtual-Storage-Fault-Lab) |
 
 ## Install the matching SDK
