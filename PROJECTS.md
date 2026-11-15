@@ -72,7 +72,7 @@ Ces projets apportent des interfaces et exemples au-dessus des pilotes d’entr�
 | [Curve-Controller](https://github.com/TitanCSA/Curve-Controller#readme) | Ajuster et visualiser la courbe de réponse d’un joystick. | Application basée sur Interceptor Gamepad & Controller ; choisir un matériel compatible. |
 | [GamePad-Remapper](https://github.com/TitanCSA/GamePad-Remapper#readme) | Configurer le remappage d’une manette, ses scripts et macros. | Application d’exemple complète ; surveiller les entrées/sorties pendant un essai explicite. |
 | [Keyboard-Mouse-Remapper](https://github.com/TitanCSA/Keyboard-Mouse-Remapper#readme) | Éditer un remappage clavier/souris, des scripts et des macros. | Application native ; le pilote d’entrée correspondant est une dépendance distincte. |
-| [MouseControl](https://github.com/TitanCSA/MouseControl#readme) | Déclencher des séquences de déplacement avec des combinaisons maintenues. | Exemple d’automatisation souris ; vérifier les conditions de déclenchement et d’arrêt. |
+| [MouseControl](https://github.com/TitanCSA/MouseControl#readme) | Exécuter du code de déplacement relatif tant qu’un seul déclencheur clavier ou souris est maintenu. | Éditeur de code avec move/wait et boucle finale facultative ; choisir un déclencheur remplace le précédent. Le relâchement annule les déplacements futurs, sans rappeler les paquets déjà acceptés. Utiliser `--preview` pour l’interface hors ligne. |
 | [Titan-Input-Tools](https://github.com/titanfyre/Titan-Input-Tools#readme) | Explorer le point d’entrée regroupant les outils d’entrée Titan. | Suivre les liens vers les composants et leurs propres guides d’installation. |
 
 [Revenir aux parcours](#choisir-son-parcours)
@@ -117,8 +117,12 @@ Les contrats de format, de transport et de compatibilité sont propres à chaque
 | --- | --- | --- |
 | [Titan-Audio-Link](https://github.com/titanfyre/Titan-Audio-Link#readme) | Relier une sortie audio virtuelle à une entrée microphone virtuelle. | Format natif PCM16 stéréo 48 kHz et API flottante ; WASAPI partagé, capture exclusive non prise en charge. |
 | [Virtual-Camera-SDK](https://github.com/titanfyre/Virtual-Camera-SDK#readme) | Envoyer ses propres images à une caméra virtuelle AVStream. | Contrat documenté : BGR24, 640×480, 30 images/s ; droits d’évaluation du pilote séparés. |
-| [Virtual-Display-Studio](https://github.com/titanfyre/Virtual-Display-Studio#readme) | Créer un écran virtuel pour une intégration ou un banc de QA. | Le scénario documenté porte sur un écran 1080p60 ; vérifier la qualification Windows. |
-| [Remote-Workstation-SDK](https://github.com/titanfyre/Remote-Workstation-SDK#readme) | Intégrer un viewer de bureau distant explicitement appairé. | Application hôte/viewer et API native ; vérifier les modes de connexion et leurs limites. |
+| [Virtual-Display-Studio](https://github.com/titanfyre/Virtual-Display-Studio#readme) | Connecter et déconnecter explicitement un écran virtuel. | Un écran SDR 1080p60, dont la présence dépend du handle de contrôle ouvert ; aucune capture ni transmission réseau. Windows 10 build 19045 a été qualifié ; Windows 11, le rendu sur GPU physique et la veille/reprise restent à qualifier. |
+| [Remote-Workstation-SDK](https://github.com/titanfyre/Remote-Workstation-SDK#readme) | Intégrer un hôte/viewer Windows sur un réseau local avec appairage explicite. | IPv4 numérique, TLS épinglé sur TCP, capture GDI jusqu’à 1280x720 et contrôle SendInput facultatif dans la même session interactive. Aucun relais, contrôle du bureau sécurisé/UAC, audio, presse-papiers ou transfert de fichiers. Runtime correspondant avec démo d’une heure par produit et démarrage Windows. |
+
+Un écran virtuel, une image capturée et un transport de contrôle à distance sont des intégrations distinctes. Créer un écran ne le diffuse pas sur le réseau. Une session fonctionnelle sur le bureau ordinaire ne prouve pas l’accès à une fenêtre élevée ou au bureau sécurisé ; aucun de ces deux projets de contrôle distant ne revendique le contrôle du bureau sécurisé. Remote Workstation et Remote Device Control ont des contrats de capture, transport, entrée et runtime différents : leurs prérequis et limites ne sont pas interchangeables.
+
+Comparaison documentaire vérifiée le 15 novembre 2026 : [Virtual Display Studio à 882176f](https://github.com/titanfyre/Virtual-Display-Studio/tree/882176f), [Remote Workstation à c90a334](https://github.com/titanfyre/Remote-Workstation-SDK/tree/c90a334) et [Remote Device Control à 2a2fb17](https://github.com/TitanCSA/Remote-Device-Control/tree/2a2fb17). Elle ne constitue pas une nouvelle installation ni un nouveau test GPU, UAC ou entre deux PC.
 
 [Revenir aux parcours](#choisir-son-parcours)
 
@@ -134,7 +138,7 @@ Les événements WFP, les trames NDIS et les statistiques d’une carte virtuell
 | [Packet-Capture-SDK](https://github.com/titanfyre/Packet-Capture-SDK#readme) | Observer des trames Ethernet IN/OUT sur un adaptateur explicite. | Captures bornées et pertes possibles ; l’envoi L2 est une opération distincte. |
 | [Titan-Network-Filter](https://github.com/titanfyre/Titan-Network-Filter#readme) | Attribuer les décisions de règles locales processus/ports/CIDR. | Une décision Continue laisse agir les autres filtres Windows ; vérifier les nouveaux flux. |
 | [Virtual-Network-Adapter-SDK](https://github.com/titanfyre/Virtual-Network-Adapter-SDK#readme) | Intégrer une carte réseau virtuelle à une application. | Lire le contrat des paquets, le cycle de vie et les prérequis du pilote. |
-| [Remote-Device-Control](https://github.com/TitanCSA/Remote-Device-Control#readme) | Contrôler un bureau Windows distant avec un viewer et un hôte dédiés. | Sunshine et moonlight-common-c pour le transport ; Vdevice pour clavier/souris virtuels côté hôte. |
+| [Remote-Device-Control](https://github.com/TitanCSA/Remote-Device-Control#readme) | Contrôler le bureau console Windows déverrouillé avec un hôte dédié et un viewer portable. | Sunshine/Moonlight en direct, H.264 SDR jusqu’à 1080p ; clavier/souris côté hôte via Vdevice et sa démo d’une heure par démarrage du noyau. Aucun relais de secours, contrôle du bureau sécurisé, audio, presse-papiers, transfert de fichiers ou transmission de manette. |
 
 [Revenir aux parcours](#choisir-son-parcours)
 
