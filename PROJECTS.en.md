@@ -72,7 +72,7 @@ These applications and examples build on input drivers. Choose the action and de
 | [Curve-Controller](https://github.com/TitanCSA/Curve-Controller#readme) | Adjust and visualise a joystick response curve. | Uses Interceptor Gamepad & Controller; select supported hardware. |
 | [GamePad-Remapper](https://github.com/TitanCSA/GamePad-Remapper#readme) | Configure gamepad remapping, scripts and macros. | Complete example application; inspect input and output during an explicit test. |
 | [Keyboard-Mouse-Remapper](https://github.com/TitanCSA/Keyboard-Mouse-Remapper#readme) | Edit keyboard/mouse remapping, scripts and macros. | Native application with a separate matching input-driver dependency. |
-| [MouseControl](https://github.com/TitanCSA/MouseControl#readme) | Trigger movement sequences while configured key/button combinations are held. | Mouse automation example; check the start, hold and stop conditions. |
+| [MouseControl](https://github.com/TitanCSA/MouseControl#readme) | Run relative mouse movement code while one selected keyboard or mouse trigger is held. | Code editor with move/wait and an optional loop; selecting a trigger replaces the previous one. Release cancels future movements; accepted packets cannot be recalled. Use --preview for the offline interface. |
 | [Titan-Input-Tools](https://github.com/titanfyre/Titan-Input-Tools#readme) | Find the entry point for the Titan input-tool collection. | Follow each component's link and its own installation guide. |
 
 [Back to workflows](#choose-a-workflow)
@@ -117,8 +117,12 @@ Format, transport and compatibility contracts differ by product. Start with the 
 | --- | --- | --- |
 | [Titan-Audio-Link](https://github.com/titanfyre/Titan-Audio-Link#readme) | Connect virtual playback output to a virtual microphone input. | Native PCM16 stereo at 48 kHz and a floating-point API; shared WASAPI. Exclusive capture is unsupported. |
 | [Virtual-Camera-SDK](https://github.com/titanfyre/Virtual-Camera-SDK#readme) | Send your own images to an AVStream virtual camera. | Documented contract: BGR24, 640×480, 30 fps. Driver evaluation rights are separate. |
-| [Virtual-Display-Studio](https://github.com/titanfyre/Virtual-Display-Studio#readme) | Create a virtual display for an integration or QA setup. | Documented scenario: one 1080p60 display. Check Windows qualification details. |
-| [Remote-Workstation-SDK](https://github.com/titanfyre/Remote-Workstation-SDK#readme) | Integrate an explicitly paired remote-desktop viewer. | Host/viewer application and native API; check supported connection modes and their limits. |
+| [Virtual-Display-Studio](https://github.com/titanfyre/Virtual-Display-Studio#readme) | Explicitly connect and disconnect one virtual monitor. | One 1080p60 SDR monitor, owned by the open control handle; no capture or network transport. Windows 10 build 19045 was qualified; Windows 11 and physical GPU/suspend-resume qualification remain pending. |
+| [Remote-Workstation-SDK](https://github.com/titanfyre/Remote-Workstation-SDK#readme) | Integrate an explicitly paired Windows LAN host/viewer. | Numeric IPv4, pinned TLS over TCP, GDI capture up to 1280x720 and optional SendInput in the same interactive session. No relay, secure-desktop/UAC control, audio, clipboard or file transfer. Matching runtime has a one-hour per-product/boot demo. |
+
+A virtual monitor, a captured frame and a remote-control transport are separate integrations. Creating a display does not stream it. A working normal-desktop session does not establish access to an elevated window or the secure desktop; neither of these two remote-control projects claims secure-desktop control. Remote Workstation and Remote Device Control use different capture, transport, input and runtime contracts, so their prerequisites and limits do not transfer between them.
+
+These details were checked against the current READMEs on 15 November 2026: [Virtual Display Studio at 882176f](https://github.com/titanfyre/Virtual-Display-Studio/tree/882176f), [Remote Workstation at c90a334](https://github.com/titanfyre/Remote-Workstation-SDK/tree/c90a334) and [Remote Device Control at 2a2fb17](https://github.com/TitanCSA/Remote-Device-Control/tree/2a2fb17). This is a documentation comparison, not a new installation, GPU, UAC or two-PC test.
 
 [Back to workflows](#choose-a-workflow)
 
@@ -134,7 +138,7 @@ WFP events, NDIS frames and virtual-adapter statistics describe different bounda
 | [Packet-Capture-SDK](https://github.com/titanfyre/Packet-Capture-SDK#readme) | Observe incoming/outgoing Ethernet frames on a selected adapter. | Bounded capture with possible losses; layer-2 transmission is a separate operation. |
 | [Titan-Network-Filter](https://github.com/titanfyre/Titan-Network-Filter#readme) | Attribute local process/port/CIDR rule decisions. | Continue leaves other Windows filters in control; check behaviour on new flows. |
 | [Virtual-Network-Adapter-SDK](https://github.com/titanfyre/Virtual-Network-Adapter-SDK#readme) | Integrate a virtual network adapter into an application. | Read the packet contract, lifecycle and driver requirements. |
-| [Remote-Device-Control](https://github.com/TitanCSA/Remote-Device-Control#readme) | Control a remote Windows desktop through a dedicated host and viewer. | Sunshine and moonlight-common-c provide transport; Vdevice supplies virtual host-side keyboard/mouse input. |
+| [Remote-Device-Control](https://github.com/TitanCSA/Remote-Device-Control#readme) | Control an unlocked Windows console desktop through a dedicated host and portable viewer. | Direct Sunshine/Moonlight SDR H.264 up to 1080p; Vdevice supplies host-side keyboard/mouse input with its one-hour kernel-boot demo. No relay fallback, secure-desktop control, audio, clipboard/file transfer or gamepad forwarding. |
 
 [Back to workflows](#choose-a-workflow)
 
