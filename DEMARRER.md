@@ -30,12 +30,12 @@ Ces projets utilisent des éditions précises de pilote et de SDK. Choisissez le
 
 ## Explorer les autres usages
 
-- **[Applications d’entrée et tests de périphériques](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md#input-applications-and-device-qa)** : remappage, scénarios de test, scanners et inspection de manettes.
-- **[Périphériques virtuels et médias](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md#virtual-devices-and-media)** : caméra, écran, audio et aperçus de transport série.
-- **[Réseau et accès distant](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md#networking-and-remote-workflows)** : captures, connexions, émulation et transport distant.
-- **[Stockage et fichiers](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md#storage-and-file-workflows)** : disque virtuel, erreurs contrôlées, suivi des blocs et fichiers à la demande.
-- **[Diagnostics et règles ciblées](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md#system-diagnostics-and-scoped-policies)** : processus, USB, registre et observations de latence.
-- **[Autres éditions d’API](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md#other-api-editions-and-sdk-source-packages)** : retrouver la documentation de votre édition et les sources SDK associées.
+- **[Applications d’entrée et tests de périphériques](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md#outils-entree)** : remappage, scénarios de test, scanners et inspection de manettes.
+- **[Périphériques virtuels et médias](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md#usb-serie)** : caméra, écran, audio et aperçus de transport série.
+- **[Réseau et accès distant](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md#reseau)** : captures, connexions, émulation et transport distant.
+- **[Stockage et fichiers](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md#stockage-fichiers)** : disque virtuel, erreurs contrôlées, suivi des blocs et fichiers à la demande.
+- **[Diagnostics et règles ciblées](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md#diagnostics-politiques)** : processus, USB, registre et observations de latence.
+- **[Autres éditions d’API](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md#integrations-sdk)** : retrouver la documentation de votre édition et les sources SDK associées.
 
 L’index indique aussi les aperçus techniques dont la qualification en fonctionnement réel reste incomplète. Pour un premier essai, ouvrez le README du projet choisi et sa Release produit ; le dépôt central des paquets sert aux SDK et à leur documentation.
 
@@ -46,3 +46,7 @@ Pour un problème reproductible, utilisez le dépôt concerné et indiquez votre
 Pour une intégration OEM, du support ou les conditions d’un pilote complet, mon pseudo Discord est **titancsa**. Le support commercial est facultatif pour les utilitaires MIT qui ne nécessitent pas de pilote d’évaluation.
 
 Présentation préparée avec assistance IA à partir de la documentation des projets. Les README individuels restent la référence pour les licences, les limites et les versions disponibles.
+
+## Vérifier les preuves avant de choisir
+
+[Le laboratoire public](https://titancsa.github.io/TitanCSA-Benchmarks/) conserve les mesures et les essais non validés. Les résultats sont limités à leurs périphériques virtuels, protocoles, versions et configurations. [L’incident WDF de Vdevice](https://titancsa.github.io/TitanCSA-Benchmarks/methodology/incident-wdf-001/) reste ouvert. Une signature Microsoft ne garantit ni l’absence de défaut ni une certification WHQL.

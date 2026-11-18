@@ -1,6 +1,6 @@
 # Choisir un projet Windows TitanCSA
 
-Un guide par besoin pour **58 projets accessibles publiquement**, vérifiés le 14 novembre 2026. Chaque projet a son usage, un point de départ et une limite à connaître. Les README liés restent la référence pour la version publiée, ses licences et ses prérequis.
+Un guide par besoin pour **60 projets et dépôts de sources SDK accessibles publiquement**, vérifiés le 18 novembre 2026. Chaque projet a son usage, un point de départ et une limite à connaître. Les README liés restent la référence pour la version publiée, ses licences et ses prérequis.
 
 [English version](PROJECTS.en.md) · [Premier essai en français](DEMARRER.md) · [Paquets et commandes exactes](https://github.com/TitanCSA/sdk-packages) · [Catalogue produit](https://licences.configcsa.com/portfolio/catalog)
 
@@ -11,10 +11,10 @@ Un guide par besoin pour **58 projets accessibles publiquement**, vérifiés le 
 | Filtrer les entrées de périphériques physiques | 7 | [Ouvrir](#entree-physique) |
 | Choisir une intégration SDK | 7 | [Ouvrir](#integrations-sdk) |
 | Utiliser des applications de remappage et d’automatisation | 7 | [Ouvrir](#outils-entree) |
-| Tester, diagnostiquer et adapter les entrées HID | 6 | [Ouvrir](#tests-hid) |
+| Tester, diagnostiquer et adapter les entrées HID | 7 | [Ouvrir](#tests-hid) |
 | Simuler ou transporter des périphériques USB et série | 5 | [Ouvrir](#usb-serie) |
 | Intégrer audio, vidéo et poste distant | 4 | [Ouvrir](#audio-video-distance) |
-| Observer, filtrer et perturber un réseau de test | 6 | [Ouvrir](#reseau) |
+| Observer, filtrer et perturber un réseau de test | 7 | [Ouvrir](#reseau) |
 | Construire un banc de stockage ou une intégration fichiers | 7 | [Ouvrir](#stockage-fichiers) |
 | Diagnostiquer Windows et attribuer des décisions locales | 6 | [Ouvrir](#diagnostics-politiques) |
 | Automatiser un navigateur, une IA locale ou un flux de scans | 3 | [Ouvrir](#automatisation-locale) |
@@ -90,6 +90,7 @@ Sépare validation hors ligne, acquisition sur un périphérique physique et cr�
 | [HID-Fixture-Studio](https://github.com/titanfyre/HID-Fixture-Studio#readme) | Éditer un descripteur HID et valider une fixture. | Commencer par la validation hors ligne ; Vdevice est requis pour les essais réels. |
 | [Input-CI-Runner](https://github.com/titanfyre/Input-CI-Runner#readme) | Exécuter des fixtures JSON de rapports HID dans une chaîne de test. | Validation hors ligne distincte du mode réel ; une mise en file n’atteste pas la consommation par une application. |
 | [Input-Replay-Lab](https://github.com/titanfyre/Input-Replay-Lab#readme) | Enregistrer une séquence locale puis la rejouer pour une QA autorisée. | Un clavier ou une souris sélectionné ; démarrage et rejeu explicites, exports JSON/CSV. |
+| [TitanCSA-Benchmarks](https://github.com/TitanCSA/TitanCSA-Benchmarks#readme) | Consulter des mesures d’entrée virtuelle reçues indépendamment et reproduire le laboratoire. | Données Hyper-V publiques, protocoles séparés et essais non validés conservés. Un incident WDF de Vdevice reste ouvert ; aucune latence physique ou supériorité générale annoncée. |
 
 [Revenir aux parcours](#choisir-son-parcours)
 
@@ -139,6 +140,7 @@ Les événements WFP, les trames NDIS et les statistiques d’une carte virtuell
 | [Titan-Network-Filter](https://github.com/titanfyre/Titan-Network-Filter#readme) | Attribuer les décisions de règles locales processus/ports/CIDR. | Une décision Continue laisse agir les autres filtres Windows ; vérifier les nouveaux flux. |
 | [Virtual-Network-Adapter-SDK](https://github.com/titanfyre/Virtual-Network-Adapter-SDK#readme) | Intégrer une carte réseau virtuelle à une application. | Lire le contrat des paquets, le cycle de vie et les prérequis du pilote. |
 | [Remote-Device-Control](https://github.com/TitanCSA/Remote-Device-Control#readme) | Contrôler le bureau console Windows déverrouillé avec un hôte dédié et un viewer portable. | Sunshine/Moonlight en direct, H.264 SDR jusqu’à 1080p ; clavier/souris côté hôte via Vdevice et sa démo d’une heure par démarrage du noyau. Aucun relais de secours, contrôle du bureau sécurisé, audio, presse-papiers, transfert de fichiers ou transmission de manette. |
+| [Advanced-Network-Filtering-SDK](https://github.com/TitanCSA/Advanced-Network-Filtering-SDK#readme) | Appliquer des règles WFP IPv4/IPv6 par application, CIDR, protocole et port. | SDK C++17 natif et bundle d’évaluation signé. Démo d’une heure par démarrage du noyau ; ce composant n’est pas un VPN complet. |
 
 [Revenir aux parcours](#choisir-son-parcours)
 
@@ -192,6 +194,6 @@ Ces trois points d’entrée servent des workflows différents : actions web exp
 
 Ce guide a été préparé avec une assistance IA à partir des README publics de chaque projet. Il ne revendique pas de nouveaux tests matériels. Les états preview, dépendances et restrictions sont présentés pour aider à choisir un premier essai réaliste.
 
-L’inventaire local comporte 62 dossiers de projets. Quatre adresses supplémentaires n’ont pas pu être ouvertes lors de la vérification et ne sont pas présentées comme publiquement disponibles ici. Les dossiers d’opérations et d’artefacts ne sont pas comptés comme projets.
+Seuls les dépôts accessibles publiquement sont listés. Les dossiers de travail, implémentations privées et miroirs de paquets ne sont pas comptés comme de nouveaux produits finalisés. Un fork présent sous deux comptes reste le même projet. Signature du pilote, fonctions démontrées et qualification de production sont des niveaux de preuve différents. Voir [comment évaluer un projet](EVIDENCE.md).
 
 Pour signaler une erreur de documentation, ouvre une issue sur le projet concerné en indiquant la version et le passage à corriger.

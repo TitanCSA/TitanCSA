@@ -1,6 +1,6 @@
 # Choose a TitanCSA Windows project
 
-A guide by use case for **58 publicly accessible projects**, based on the public README review of 14 November 2026. Each entry links to the project documentation and states a practical starting point and scope limit. The linked README remains the reference for releases, licences and prerequisites.
+A guide by use case for **60 publicly accessible projects and SDK source repositories**, based on the public repository review of 18 November 2026. Each entry links to the project documentation and states a practical starting point and scope limit. The linked README remains the reference for releases, licences and prerequisites.
 
 [Français](PROJECTS.md) · [Exact package names and installation commands](https://github.com/TitanCSA/sdk-packages) · [Product catalogue](https://licences.configcsa.com/portfolio/catalog)
 
@@ -11,10 +11,10 @@ A guide by use case for **58 publicly accessible projects**, based on the public
 | Filter input from physical devices | 7 | [Open](#entree-physique) |
 | Choose an SDK integration | 7 | [Open](#integrations-sdk) |
 | Use remapping and input automation applications | 7 | [Open](#outils-entree) |
-| Test, diagnose and adapt HID input | 6 | [Open](#tests-hid) |
+| Test, diagnose and adapt HID input | 7 | [Open](#tests-hid) |
 | Simulate or transport USB and serial devices | 5 | [Open](#usb-serie) |
 | Integrate audio, video and remote workstations | 4 | [Open](#audio-video-distance) |
-| Observe, filter and impair a test network | 6 | [Open](#reseau) |
+| Observe, filter and impair a test network | 7 | [Open](#reseau) |
 | Build a storage test setup or file integration | 7 | [Open](#stockage-fichiers) |
 | Diagnose Windows and attribute local policy decisions | 6 | [Open](#diagnostics-politiques) |
 | Automate a browser, local text models or barcode scans | 3 | [Open](#automatisation-locale) |
@@ -90,6 +90,7 @@ Keep offline validation, physical-device capture and virtual-device creation dis
 | [HID-Fixture-Studio](https://github.com/titanfyre/HID-Fixture-Studio#readme) | Edit a HID descriptor and validate a fixture. | Start with offline validation; live tests require Vdevice. |
 | [Input-CI-Runner](https://github.com/titanfyre/Input-CI-Runner#readme) | Run JSON HID-report fixtures in a test pipeline. | Offline validation and explicit live runs are separate. Enqueuing a report does not prove an application consumed it. |
 | [Input-Replay-Lab](https://github.com/titanfyre/Input-Replay-Lab#readme) | Record a local input sequence and replay it for authorised QA. | Select one keyboard or mouse; recording and replay start explicitly. JSON/CSV exports are available. |
+| [TitanCSA-Benchmarks](https://github.com/TitanCSA/TitanCSA-Benchmarks#readme) | Inspect independently received virtual-input measurements and reproduce the lab. | Public Hyper-V dataset, protocol-specific results and failed runs. An open Vdevice WDF teardown incident is documented; no physical-latency or universal speed claim. |
 
 [Back to workflows](#choose-a-workflow)
 
@@ -139,6 +140,7 @@ WFP events, NDIS frames and virtual-adapter statistics describe different bounda
 | [Titan-Network-Filter](https://github.com/titanfyre/Titan-Network-Filter#readme) | Attribute local process/port/CIDR rule decisions. | Continue leaves other Windows filters in control; check behaviour on new flows. |
 | [Virtual-Network-Adapter-SDK](https://github.com/titanfyre/Virtual-Network-Adapter-SDK#readme) | Integrate a virtual network adapter into an application. | Read the packet contract, lifecycle and driver requirements. |
 | [Remote-Device-Control](https://github.com/TitanCSA/Remote-Device-Control#readme) | Control an unlocked Windows console desktop through a dedicated host and portable viewer. | Direct Sunshine/Moonlight SDR H.264 up to 1080p; Vdevice supplies host-side keyboard/mouse input with its one-hour kernel-boot demo. No relay fallback, secure-desktop control, audio, clipboard/file transfer or gamepad forwarding. |
+| [Advanced-Network-Filtering-SDK](https://github.com/TitanCSA/Advanced-Network-Filtering-SDK#readme) | Apply scoped WFP IPv4/IPv6 application, CIDR, protocol and port rules. | Native C++17 SDK and signed evaluation bundle. A one-hour kernel-boot allowance applies; this component is not a complete VPN. |
 
 [Back to workflows](#choose-a-workflow)
 
@@ -192,6 +194,6 @@ These entry points serve different workflows: explicit web actions, local text m
 
 Prepared with AI assistance from each project's public README and the linked French catalogue. This guide does not claim new hardware tests. Preview states, dependencies and limitations help readers choose a realistic first run.
 
-The local inventory contains 62 project directories. Four additional repository addresses could not be opened during the public-source review and are not presented as publicly available here. Operational and build-artifact directories are excluded from the project count.
+Only publicly accessible repositories are listed. Working folders, private implementations and package mirrors are not counted as additional finished products. Some application repositories exist under both accounts; a fork is not a separate product. Driver signing, demonstrated functionality and production qualification are different evidence levels. See [how to evaluate a project](EVIDENCE.md).
 
 To report a documentation error, open an issue in the relevant project and include its version and the passage to correct.

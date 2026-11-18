@@ -2,11 +2,11 @@
 
 I build Windows tools for physical input, virtual devices, diagnostics and browser automation.
 
-**[Browse SDK packages and install commands](https://github.com/TitanCSA/sdk-packages)** · **[Compare all 58 projects by use case](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.en.md)** · **[Browse the project catalogue](https://github.com/titanfyre/Titan-Input-Tools)**
+**[Browse SDK packages and install commands](https://github.com/TitanCSA/sdk-packages)** · **[Choose a project by use case](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.en.md)** · **[Browse the project catalogue](https://github.com/titanfyre/Titan-Input-Tools)**
 
 **[Français : choisir un projet et faire un premier essai](https://github.com/TitanCSA/TitanCSA/blob/main/DEMARRER.md)**
 
-**[Catalogue détaillé : 58 projets, 10 parcours, usages et limites de départ](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md)**
+**[Catalogue détaillé : projets, parcours, usages et limites de départ](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md)**
 
 ## Find a starting point
 
@@ -22,6 +22,12 @@ I build Windows tools for physical input, virtual devices, diagnostics and brows
 | Chat with local text models through a French desktop interface | [Titan Local AI](https://github.com/titanfyre/Titan-Local-AI) |
 | Validate a virtual HID test fixture offline before an explicit live run | [Input CI Runner](https://github.com/titanfyre/Input-CI-Runner) |
 | Exercise storage error handling on a disposable RAM-disk fixture | [Virtual Storage Fault Lab](https://github.com/titanfyre/Virtual-Storage-Fault-Lab) |
+
+## Check the evidence
+
+[Open benchmark lab](https://titancsa.github.io/TitanCSA-Benchmarks/) · [How to evaluate a project](EVIDENCE.md)
+
+The lab publishes raw measurements, independently observed content, exact versions and invalid runs. It currently covers selected virtual-device paths in one Windows 11 Hyper-V guest. Physical USB latency and production qualification are separate questions. A Vdevice queue-purge crash remains [documented and unresolved](https://titancsa.github.io/TitanCSA-Benchmarks/methodology/incident-wdf-001/).
 
 ## Install the matching SDK
 
