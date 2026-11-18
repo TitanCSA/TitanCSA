@@ -2,7 +2,7 @@
 
 A guide by use case for **60 publicly accessible projects and SDK source repositories**, based on the public repository review of 18 November 2026. Each entry links to the project documentation and states a practical starting point and scope limit. The linked README remains the reference for releases, licences and prerequisites.
 
-[Français](PROJECTS.md) · [Exact package names and installation commands](https://github.com/TitanCSA/sdk-packages) · [Product catalogue](https://licences.configcsa.com/portfolio/catalog)
+[Search the project portal](https://titancsa.github.io/) · [Français](PROJECTS.md) · [Exact package names and installation commands](https://github.com/TitanCSA/sdk-packages) · [Product catalogue](https://licences.configcsa.com/portfolio/catalog)
 
 ## Choose a workflow
 
