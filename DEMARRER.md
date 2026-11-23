@@ -1,5 +1,7 @@
 # Choisir un projet TitanCSA
 
+[Pilotes d’entrée Windows : comparer, essayer et acheter les cinq éditions](https://titancsa.github.io/fr/pilotes-entree-windows/)
+
 Des outils Windows pour automatiser un navigateur, travailler avec des entrées physiques, créer des périphériques virtuels et préparer des diagnostics.
 
 **[Tous les projets par usage](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md)** · **[Paquets SDK et commandes d’installation](https://github.com/TitanCSA/sdk-packages)** · **[English](https://github.com/TitanCSA/TitanCSA)**
