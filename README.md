@@ -10,12 +10,15 @@ I build Windows tools for physical input, virtual devices, diagnostics and brows
 
 ## Find a starting point
 
+[Compare the five Windows input SDKs](https://titancsa.github.io/guides/choose-input/)
+
 | What you want to build | Project |
 | --- | --- |
 | Read, remap or forward input from selected physical devices | [Interceptor](https://github.com/TitanCSA/Interceptor) |
 | Work specifically with keyboards and mice | [Interceptor Keyboard & Mouse](https://github.com/TitanCSA/Interceptor-Keyboard-Mouse) |
 | Work with supported physical gamepads | [Interceptor Gamepad & Controller](https://github.com/TitanCSA/Interceptor-Gamepad-Controller) |
 | Make per-device AutoHotkey scripts | [AutoHotInterceptor](https://github.com/TitanCSA/AutoHotInterceptor), adapted from evilC's AutoHotInterception |
+| Migrate an application that uses the original Interception C API | [Interception V2](https://github.com/TitanCSA/Interception-V2) |
 | Create virtual USB/HID input devices | [Vdevice](https://github.com/TitanCSA/Vdevice) |
 | Automate a dedicated browser through local SDK or MCP tools | [Browser Control SDK](https://github.com/TitanCSA/Browser-Control-SDK) |
 | Collect Windows device and driver support reports | [Driver Readiness Inspector](https://github.com/titanfyre/Driver-Readiness-Inspector) |
