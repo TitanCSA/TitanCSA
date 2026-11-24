@@ -10,6 +10,8 @@ I build Windows tools for physical input, virtual devices, diagnostics and brows
 
 ## Find a starting point
 
+[Compare signed demos and Lifetime Releases](https://titancsa.github.io/guides/windows-input-release-compare/) · [Find published SDK packages](https://titancsa.github.io/guides/windows-input-sdk-packages/)
+
 [Compare the five Windows input SDKs](https://titancsa.github.io/guides/choose-input/)
 
 | What you want to build | Project |
