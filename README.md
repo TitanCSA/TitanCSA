@@ -12,6 +12,8 @@ I build Windows tools for physical input, virtual devices, diagnostics and brows
 
 [Compare signed demos and Lifetime Releases](https://titancsa.github.io/guides/windows-input-release-compare/) · [Find published SDK packages](https://titancsa.github.io/guides/windows-input-sdk-packages/)
 
+[Verify a signed Windows driver package](https://titancsa.github.io/guides/verify-windows-driver-package/) · [Reproduce the Vdevice virtual HID test](https://titancsa.github.io/guides/vdevice-custom-hid-test/)
+
 [Compare the five Windows input SDKs](https://titancsa.github.io/guides/choose-input/)
 
 | What you want to build | Project |
