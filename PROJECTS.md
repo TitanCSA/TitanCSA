@@ -1,6 +1,6 @@
 # Choisir un projet Windows TitanCSA
 
-Un guide par besoin pour **60 projets et dépôts de sources SDK accessibles publiquement**, vérifiés le 18 novembre 2026. Chaque projet a son usage, un point de départ et une limite à connaître. Les README liés restent la référence pour la version publiée, ses licences et ses prérequis.
+Choisis ce que tu veux faire dans le [catalogue simple](https://titancsa.github.io/). Chaque fiche explique le but du projet et le premier essai.
 
 [Portail et recherche](https://titancsa.github.io/) · [English version](PROJECTS.en.md) · [Premier essai en français](DEMARRER.md) · [Paquets et commandes exactes](https://github.com/TitanCSA/sdk-packages) · [Demander la version sans la limite d’une heure · Discord titancsa](https://titancsa.github.io/about/evidence/#release-contact)
 
