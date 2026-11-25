@@ -30,11 +30,26 @@ I build Windows tools for physical input, virtual devices, diagnostics and brows
 | Validate a virtual HID test fixture offline before an explicit live run | [Input CI Runner](https://github.com/titanfyre/Input-CI-Runner) |
 | Exercise storage error handling on a disposable RAM-disk fixture | [Virtual Storage Fault Lab](https://github.com/titanfyre/Virtual-Storage-Fault-Lab) |
 
+## Signed demos and Lifetime Releases
+
+Version snapshot verified on 25 November 2026. The public demo or evaluation is linked by tag. Each commercial Release is sold separately for EUR 400 with a Lifetime license.
+
+| Project | Public demo or evaluation | Commercial ZIP | Signed commercial driver |
+| --- | --- | --- | --- |
+| [Interceptor](https://github.com/TitanCSA/Interceptor) | [1.4.22.0](https://github.com/TitanCSA/Interceptor/releases/tag/v1.4.22.0-demo) | 1.6.1.1 | 1.6.0.0 |
+| [Interceptor Keyboard & Mouse](https://github.com/TitanCSA/Interceptor-Keyboard-Mouse) | [1.0.5.0](https://github.com/TitanCSA/Interceptor-Keyboard-Mouse/releases/tag/v1.0.5.0-demo) | 1.0.2.2 | 1.0.2.2 |
+| [Interceptor Gamepad & Controller](https://github.com/TitanCSA/Interceptor-Gamepad-Controller) | [1.0.13.0](https://github.com/TitanCSA/Interceptor-Gamepad-Controller/releases/tag/v1.0.13.0-demo) | 1.0.1.1 | 1.0.0.0 |
+| [Vdevice](https://github.com/TitanCSA/Vdevice) | [1.0.6.0](https://github.com/TitanCSA/Vdevice/releases/tag/v1.0.6.0-demo) | 1.0.3.3 | 1.0.3.0 |
+| [Interception V2](https://github.com/TitanCSA/Interception-V2) | [2.0.0.0](https://github.com/TitanCSA/Interception-V2/releases/tag/v2.0.0) | 2.0.0.1 | 2.0.0.0 |
+| [Titan Audio Link](https://github.com/titanfyre/Titan-Audio-Link) | [0.1.1 evaluation](https://github.com/titanfyre/Titan-Audio-Link/releases/tag/v0.1.1) | 0.2.1.2 | 0.2.1.0 |
+
+[Input SDK comparison, download files and trial limits](https://titancsa.github.io/guides/windows-input-release-compare/) | [Titan Audio Link evaluation and Release guide](https://titancsa.github.io/guides/titan-audio-link-first-run/)
+
 ## Check the evidence
 
 [Open benchmark lab](https://titancsa.github.io/TitanCSA-Benchmarks/) · [How to evaluate a project](EVIDENCE.md)
 
-The lab publishes raw measurements, independently observed content, exact versions and invalid runs. It currently covers selected virtual-device paths in one Windows 11 Hyper-V guest. Physical USB latency and production qualification are separate questions. A Vdevice queue-purge crash remains [documented and unresolved](https://titancsa.github.io/TitanCSA-Benchmarks/methodology/incident-wdf-001/).
+The lab publishes raw measurements, independently observed content, exact versions and invalid runs. It currently covers selected virtual-device paths in one Windows 11 Hyper-V guest. Physical USB latency and production qualification are separate questions. The [signed Vdevice demo 1.0.6.0](https://github.com/TitanCSA/Vdevice/releases/tag/v1.0.6.0-demo) includes the WDF-001 fix and passed the [published queue teardown tests](https://titancsa.github.io/TitanCSA-Benchmarks/methodology/incident-wdf-001/). The corresponding commercial driver update remains pending in [issue #1](https://github.com/TitanCSA/Vdevice/issues/1).
 
 ## Install the matching SDK
 
