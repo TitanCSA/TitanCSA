@@ -41,7 +41,7 @@ Version snapshot verified on 25 November 2026. The public demo or evaluation is 
 | [Interceptor Gamepad & Controller](https://github.com/TitanCSA/Interceptor-Gamepad-Controller) | [1.0.13.0](https://github.com/TitanCSA/Interceptor-Gamepad-Controller/releases/tag/v1.0.13.0-demo) | 1.0.1.1 | 1.0.0.0 |
 | [Vdevice](https://github.com/TitanCSA/Vdevice) | [1.0.6.0](https://github.com/TitanCSA/Vdevice/releases/tag/v1.0.6.0-demo) | 1.0.3.3 | 1.0.3.0 |
 | [Interception V2](https://github.com/TitanCSA/Interception-V2) | [2.0.0.0](https://github.com/TitanCSA/Interception-V2/releases/tag/v2.0.0) | 2.0.0.1 | 2.0.0.0 |
-| [Titan Audio Link](https://github.com/titanfyre/Titan-Audio-Link) | [0.1.1 evaluation](https://github.com/titanfyre/Titan-Audio-Link/releases/tag/v0.1.1) | 0.2.1.2 | 0.2.1.0 |
+| [Titan Audio Link](https://github.com/titanfyre/Titan-Audio-Link) | [0.2.0 demo](https://github.com/titanfyre/Titan-Audio-Link/releases/tag/v0.2.0-demo) | 0.2.1.2 | 0.2.1.0 |
 
 [Input SDK comparison, download files and trial limits](https://titancsa.github.io/guides/windows-input-release-compare/) | [Titan Audio Link evaluation and Release guide](https://titancsa.github.io/guides/titan-audio-link-first-run/)
 
