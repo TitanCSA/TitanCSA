@@ -19,7 +19,7 @@ I build Windows tools for physical input, virtual devices, diagnostics and brows
 
 **[Français : choisir un projet et faire un premier essai](https://github.com/TitanCSA/TitanCSA/blob/main/DEMARRER.md)**
 
-**[Catalogue détaillé : projets, parcours, usages et limites de départ](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md)**
+**[Chercher un projet en français](https://titancsa.github.io/fr/)** · [Guide détaillé](PROJECTS.md)
 
 ## Find a starting point
 

@@ -1,8 +1,8 @@
 # Choisir un projet Windows TitanCSA
 
-Choisis ce que tu veux faire dans le [catalogue simple](https://titancsa.github.io/). Chaque fiche explique le but du projet et le premier essai.
+Choisis ce que tu veux faire dans le [catalogue en français](https://titancsa.github.io/fr/). Chaque fiche explique le but du projet et le premier essai.
 
-[Portail et recherche](https://titancsa.github.io/) · [English version](PROJECTS.en.md) · [Premier essai en français](DEMARRER.md) · [Paquets et commandes exactes](https://github.com/TitanCSA/sdk-packages) · [Demander la version sans la limite d’une heure · Discord titancsa](https://titancsa.github.io/about/evidence/#release-contact)
+[Recherche par usage](https://titancsa.github.io/fr/#projects) · [English version](PROJECTS.en.md) · [Premier essai en français](DEMARRER.md) · [Paquets et commandes exactes](https://github.com/TitanCSA/sdk-packages) · [Demander la version sans la limite d’une heure · Discord titancsa](https://titancsa.github.io/about/evidence/#release-contact)
 
 ## Choisir son parcours
 
