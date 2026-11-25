@@ -51,4 +51,4 @@ Présentation préparée avec assistance IA à partir de la documentation des pr
 
 ## Vérifier les preuves avant de choisir
 
-[Le laboratoire public](https://titancsa.github.io/TitanCSA-Benchmarks/) conserve les mesures et les essais non validés. Les résultats sont limités à leurs périphériques virtuels, protocoles, versions et configurations. [L’incident WDF de Vdevice](https://titancsa.github.io/TitanCSA-Benchmarks/methodology/incident-wdf-001/) reste ouvert. Une signature Microsoft ne garantit ni l’absence de défaut ni une certification WHQL.
+[Le laboratoire public](https://titancsa.github.io/TitanCSA-Benchmarks/) conserve les mesures et les essais non validés. Les résultats sont limités à leurs périphériques virtuels, protocoles, versions et configurations. [Le dossier WDF-001](https://titancsa.github.io/TitanCSA-Benchmarks/methodology/incident-wdf-001/) documente les plantages de la démo Vdevice 1.0.5.0 et les essais de retrait réussis avec la démo signée 1.0.6.0. La mise à jour du pilote commercial reste en attente dans [le ticket #1](https://github.com/TitanCSA/Vdevice/issues/1).

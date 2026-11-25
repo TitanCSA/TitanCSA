@@ -24,7 +24,7 @@ Installing a package does not install its product driver unless the package expl
 - Process working set is not driver pool usage, and a five-minute observation is not proof of no leaks.
 - Signing is not WHQL certification, HVCI qualification or a guarantee of stability.
 
-The [open Vdevice WDF incident](https://titancsa.github.io/TitanCSA-Benchmarks/methodology/incident-wdf-001/) documents two guest crashes. Completed latency results do not erase that finding. Use the matching release's known issues when evaluating it.
+The [Vdevice WDF-001 incident record](https://titancsa.github.io/TitanCSA-Benchmarks/methodology/incident-wdf-001/) preserves the two guest crashes observed with demo 1.0.5.0 and the separate queue teardown tests passed by the signed 1.0.6.0 demo fix. The corresponding commercial driver update remains pending in [issue #1](https://github.com/TitanCSA/Vdevice/issues/1).
 
 ## Separate the licences
 
