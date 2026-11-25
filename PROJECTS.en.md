@@ -1,6 +1,6 @@
 # Choose a TitanCSA Windows project
 
-A guide by use case for **60 publicly accessible projects and SDK source repositories**, based on the public repository review of 18 November 2026. Each entry links to the project documentation and states a practical starting point and scope limit. The linked README remains the reference for releases, licences and prerequisites.
+Choose what you want to do in the [project catalogue](https://titancsa.github.io/). Each card explains what the project does and what to try first.
 
 [Search the project portal](https://titancsa.github.io/) · [Français](PROJECTS.md) · [Exact package names and installation commands](https://github.com/TitanCSA/sdk-packages) · [Version without the one-hour demo limit · Discord titancsa](https://titancsa.github.io/about/evidence/#release-contact)
 
