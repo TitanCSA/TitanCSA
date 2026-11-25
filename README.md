@@ -1,5 +1,15 @@
 # TitanCSA — Windows tools and developer SDKs
 
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Get the version without the one-hour demo limit**
+>
+> **Discord · `titancsa`**. Open [Discord](https://discord.com/app), choose **Friends → Add Friend**, enter **`titancsa`** and send a message.
+> Send the project name and ask for its full version. TitanCSA will share the purchase details privately.
+>
+> **FR · Version sans la limite d’une heure.** Ajoute **`titancsa`** sur Discord et envoie le nom du projet. Le lien d’achat est communiqué en privé.
+<!-- full-version-contact:end -->
+
 I build Windows tools for physical input, virtual devices, diagnostics and browser automation.
 
 **[Project portal and first-run guides](https://titancsa.github.io/)** · **[SDK packages and install commands](https://github.com/TitanCSA/sdk-packages)** · **[Detailed workflow guide](PROJECTS.en.md)**
