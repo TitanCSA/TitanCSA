@@ -4,6 +4,22 @@
 
 Des outils Windows pour automatiser un navigateur, travailler avec des entrées physiques, créer des périphériques virtuels et préparer des diagnostics.
 
+> [!IMPORTANT]
+> **Version sans la limite d’une heure**
+>
+> Ajoute **`titancsa`** sur [Discord](https://discord.com/app) et envoie le nom du projet. Le lien d’achat est communiqué en privé.
+
+## Choisir une démo signée
+
+| Ce que tu veux faire | Guide de premier essai |
+| --- | --- |
+| Lire ou modifier les actions d’un clavier, d’une souris et d’une manette | [Interceptor](https://titancsa.github.io/fr/essayer-interceptor/) |
+| Distinguer plusieurs claviers ou souris | [Interceptor Keyboard & Mouse](https://titancsa.github.io/fr/tester-deux-claviers-windows/) |
+| Lire ou modifier les boutons et sticks d’une manette compatible | [Interceptor Gamepad & Controller](https://titancsa.github.io/fr/remapper-manette-windows/) |
+| Créer une souris, un clavier ou une manette virtuelle | [Vdevice](https://titancsa.github.io/fr/souris-usb-virtuelle-vdevice/) |
+| Continuer à utiliser une application basée sur l’ancien SDK Interception | [Interception V2](https://titancsa.github.io/fr/migrer-interception-v2/) |
+| Envoyer le son d’une application vers le micro virtuel d’une autre | [Titan Audio Link](https://titancsa.github.io/fr/micro-virtuel-titan-audio-link/) |
+
 **[Tous les projets par usage](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.md)** · **[Paquets SDK et commandes d’installation](https://github.com/TitanCSA/sdk-packages)** · **[English](https://github.com/TitanCSA/TitanCSA)**
 
 ## Commencer sans installer de pilote d’entrée
@@ -17,18 +33,14 @@ Des outils Windows pour automatiser un navigateur, travailler avec des entrées 
 
 Les trois premières applications ont leur propre licence MIT ; les composants tiers et les modèles conservent leurs conditions. L’inférence locale ne signifie pas que les téléchargements initiaux ou les pages visitées fonctionnent sans réseau.
 
-## Choisir une entrée physique ou un périphérique virtuel
+## Autres outils pour les entrées Windows
 
 | Ce que vous voulez faire | Point de départ |
 | --- | --- |
-| Lire ou transformer les entrées d’un clavier ou d’une souris physique | [Interceptor Keyboard & Mouse](https://github.com/TitanCSA/Interceptor-Keyboard-Mouse) |
-| Travailler avec une manette physique compatible | [Interceptor Gamepad & Controller](https://github.com/TitanCSA/Interceptor-Gamepad-Controller) |
-| Réunir clavier, souris et manettes avec l’API combinée | [Interceptor](https://github.com/TitanCSA/Interceptor) |
-| Créer un périphérique USB/HID virtuel avec ses descripteurs et rapports | [Vdevice](https://github.com/TitanCSA/Vdevice) |
 | Utiliser AutoHotkey avec des abonnements par périphérique | [AutoHotInterceptor](https://github.com/TitanCSA/AutoHotInterceptor), adapté d’AutoHotInterception d’evilC |
 | Étudier un éditeur de courbes de joystick | [Curve Controller](https://github.com/TitanCSA/Curve-Controller) |
 
-Ces projets utilisent des éditions précises de pilote et de SDK. Choisissez leurs exemples correspondants : les éditions ne deviennent pas interchangeables en changeant seulement un nom de paquet. Les pilotes d’évaluation d’entrée ont une limite d’une heure par démarrage du noyau Windows ; la licence de l’application ou du SDK ne supprime pas cette limite. Le README décrit l’installation, les périphériques qualifiés et les conditions de la version complète.
+Pour chaque démo signée, choisis le pilote, le SDK et les exemples de la même édition. Les démos durent une heure par démarrage du noyau Windows. Le guide de premier essai indique ce qui déclenche le compteur.
 
 ## Explorer les autres usages
 

@@ -21,33 +21,40 @@ I build Windows tools for physical input, virtual devices, diagnostics and brows
 
 **[Chercher un projet en français](https://titancsa.github.io/fr/)** · [Guide détaillé](PROJECTS.md)
 
-## Find a starting point
+## Try a signed demo
 
-[Compare signed demos and Lifetime Releases](https://titancsa.github.io/guides/windows-input-release-compare/) · [Find published SDK packages](https://titancsa.github.io/guides/windows-input-sdk-packages/)
+| What you want to do | Project | First-run guide |
+| --- | --- | --- |
+| Change input from a keyboard, mouse and gamepad with one SDK | [Interceptor](https://github.com/TitanCSA/Interceptor) | [English](https://titancsa.github.io/projects/interceptor/) · [Français](https://titancsa.github.io/fr/essayer-interceptor/) |
+| Work specifically with physical keyboards and mice | [Interceptor Keyboard & Mouse](https://github.com/TitanCSA/Interceptor-Keyboard-Mouse) | [English](https://titancsa.github.io/guides/keyboard-mouse-first-run/) · [Français](https://titancsa.github.io/fr/tester-deux-claviers-windows/) |
+| Work with supported physical gamepads | [Interceptor Gamepad & Controller](https://github.com/TitanCSA/Interceptor-Gamepad-Controller) | [English](https://titancsa.github.io/guides/gamepad-controller-first-run/) · [Français](https://titancsa.github.io/fr/remapper-manette-windows/) |
+| Create a virtual USB keyboard, mouse or gamepad | [Vdevice](https://github.com/TitanCSA/Vdevice) | [English](https://titancsa.github.io/guides/vdevice-virtual-usb-mouse/) · [Français](https://titancsa.github.io/fr/souris-usb-virtuelle-vdevice/) |
+| Migrate an app that uses the original Interception C API | [Interception V2](https://github.com/TitanCSA/Interception-V2) | [English](https://titancsa.github.io/guides/interception-v2-migration/) · [Français](https://titancsa.github.io/fr/migrer-interception-v2/) |
+| Send sound from one Windows app to the virtual microphone of another | [Titan Audio Link](https://github.com/titanfyre/Titan-Audio-Link) | [English](https://titancsa.github.io/guides/titan-audio-link-first-run/) · [Français](https://titancsa.github.io/fr/micro-virtuel-titan-audio-link/) |
+
+[Compare the driver editions](https://titancsa.github.io/guides/windows-input-release-compare/) · [Find published SDK packages](https://titancsa.github.io/guides/windows-input-sdk-packages/)
 
 [Verify a signed Windows driver package](https://titancsa.github.io/guides/verify-windows-driver-package/) · [Reproduce the Vdevice virtual HID test](https://titancsa.github.io/guides/vdevice-custom-hid-test/)
 
-[Compare the five Windows input SDKs](https://titancsa.github.io/guides/choose-input/)
+<details>
+<summary>Other Windows tools</summary>
 
 | What you want to build | Project |
 | --- | --- |
-| Read, remap or forward input from selected physical devices | [Interceptor](https://github.com/TitanCSA/Interceptor) |
-| Work specifically with keyboards and mice | [Interceptor Keyboard & Mouse](https://github.com/TitanCSA/Interceptor-Keyboard-Mouse) |
-| Work with supported physical gamepads | [Interceptor Gamepad & Controller](https://github.com/TitanCSA/Interceptor-Gamepad-Controller) |
 | Make per-device AutoHotkey scripts | [AutoHotInterceptor](https://github.com/TitanCSA/AutoHotInterceptor), adapted from evilC's AutoHotInterception |
-| Migrate an application that uses the original Interception C API | [Interception V2](https://github.com/TitanCSA/Interception-V2) |
-| Create virtual USB/HID input devices | [Vdevice](https://github.com/TitanCSA/Vdevice) |
 | Automate a dedicated browser through local SDK or MCP tools | [Browser Control SDK](https://github.com/TitanCSA/Browser-Control-SDK) |
 | Collect Windows device and driver support reports | [Driver Readiness Inspector](https://github.com/titanfyre/Driver-Readiness-Inspector) |
 | Chat with local text models through a French desktop interface | [Titan Local AI](https://github.com/titanfyre/Titan-Local-AI) |
 | Validate a virtual HID test fixture offline before an explicit live run | [Input CI Runner](https://github.com/titanfyre/Input-CI-Runner) |
 | Exercise storage error handling on a disposable RAM-disk fixture | [Virtual Storage Fault Lab](https://github.com/titanfyre/Virtual-Storage-Fault-Lab) |
 
-## Signed demos and Lifetime Releases
+</details>
 
-The official catalogue lists the current demo tags, commercial ZIP versions and signed driver versions. For a Release without the one-hour demo limit, send the project name to **`titancsa`** on Discord.
+## Demo and Release versions
 
-[Compare Windows input drivers](https://titancsa.github.io/guides/windows-input-release-compare/) · [Titan Audio Link](https://titancsa.github.io/guides/titan-audio-link-first-run/) · [Machine-readable release list](https://titancsa.github.io/releases.json)
+The official catalogue lists the current demo tags, commercial ZIP versions and signed driver versions.
+
+[Release list](https://titancsa.github.io/releases.json) · [SDK integration manifest](https://titancsa.github.io/integration.json) · [Documentation index](https://titancsa.github.io/llms.txt)
 
 ## Check the evidence
 
