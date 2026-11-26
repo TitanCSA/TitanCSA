@@ -24,7 +24,7 @@ Installing a package does not install its product driver unless the package expl
 - Process working set is not driver pool usage, and a five-minute observation is not proof of no leaks.
 - Signing is not WHQL certification, HVCI qualification or a guarantee of stability.
 
-The [Vdevice WDF-001 incident record](https://titancsa.github.io/TitanCSA-Benchmarks/methodology/incident-wdf-001/) preserves the two guest crashes observed with demo 1.0.5.0 and the separate queue teardown tests passed by the signed 1.0.6.0 demo fix. The corresponding commercial driver update remains pending in [issue #1](https://github.com/TitanCSA/Vdevice/issues/1).
+The [Vdevice WDF-001 incident record](https://titancsa.github.io/TitanCSA-Benchmarks/methodology/incident-wdf-001/) preserves the original crashes observed with Demo 1.0.5.0 and the queue teardown results for the signed 1.0.6.0 fix. Signed Demo 1.0.6.1 and Release 1.0.4.1 include the fix. The [installation records](https://titancsa.github.io/assets/vdevice-signed-versions-2026-11-25.json) identify the tested Windows 10 and 11 packages and the scope of each result. [Resolved issue](https://github.com/TitanCSA/Vdevice/issues/1)
 
 ## Separate the licences
 
