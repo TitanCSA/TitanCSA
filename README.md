@@ -32,7 +32,7 @@ I build Windows tools for physical input, virtual devices, diagnostics and brows
 | Migrate an app that uses the original Interception C API | [Interception V2](https://github.com/TitanCSA/Interception-V2) | [English](https://titancsa.github.io/guides/interception-v2-migration/) · [Français](https://titancsa.github.io/fr/migrer-interception-v2/) |
 | Send sound from one Windows app to the virtual microphone of another | [Titan Audio Link](https://github.com/titanfyre/Titan-Audio-Link) | [English](https://titancsa.github.io/guides/titan-audio-link-first-run/) · [Français](https://titancsa.github.io/fr/micro-virtuel-titan-audio-link/) |
 
-[Compare the driver editions](https://titancsa.github.io/guides/windows-input-release-compare/) · [Find published SDK packages](https://titancsa.github.io/guides/windows-input-sdk-packages/)
+[Compare the signed demos](https://titancsa.github.io/guides/windows-input-release-compare/) · [Comparer les démos en français](https://titancsa.github.io/fr/pilotes-entree-windows/) · [Find published SDK packages](https://titancsa.github.io/guides/windows-input-sdk-packages/)
 
 [Verify a signed Windows driver package](https://titancsa.github.io/guides/verify-windows-driver-package/) · [Reproduce the Vdevice virtual HID test](https://titancsa.github.io/guides/vdevice-custom-hid-test/)
 

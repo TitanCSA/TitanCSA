@@ -1,6 +1,6 @@
 # Choisir un projet TitanCSA
 
-[Chercher un projet](https://titancsa.github.io/fr/) · [Essayer un outil sans ajouter de pilote](https://titancsa.github.io/fr/essayer-sans-pilote/) · [Comparer les pilotes d’entrée Windows](https://titancsa.github.io/fr/pilotes-entree-windows/)
+[Chercher un projet](https://titancsa.github.io/fr/) · [Essayer un outil sans ajouter de pilote](https://titancsa.github.io/fr/essayer-sans-pilote/) · [Comparer les démos de pilotes Windows](https://titancsa.github.io/fr/pilotes-entree-windows/)
 
 Des outils Windows pour automatiser un navigateur, travailler avec des entrées physiques, créer des périphériques virtuels et préparer des diagnostics.
 
